@@ -1,6 +1,6 @@
 # // car takes start, stop and end commands
 # When type help , it provides options to play the game
-# any other command-- It should say not undertood
+# any other command-- It should say not understood
 from ast import While
 
 exit = False
@@ -25,4 +25,5 @@ while not exit:
                     exit: Game exists''')
         else:
             print("Invalid command")
+
 
