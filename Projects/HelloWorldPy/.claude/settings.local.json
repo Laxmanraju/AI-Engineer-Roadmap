@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/justanother/Documents/CODE/AI-Engineer-Roadmap/Projects/HelloWorldPy/.venv/bin/python -m pip freeze)",
+      "Bash(./.venv/bin/python -c \"import openpyxl, ast, operator, pathlib, math, random; print\\('all imports OK — openpyxl', openpyxl.__version__\\)\")",
+      "Bash(echo \"OLD HelloWorldPy venv path exists?\"; ls -d ~/Documents/CODE/HelloWorldPy/.venv 2>/dev/null && echo \"  -> EXISTS\" || echo \"  -> GONE \\(stale\\)\"; echo; echo \"CURRENT HelloWorldPy venv path exists?\"; ls -d ~/Documents/CODE/AI-Engineer-Roadmap/Projects/HelloWorldPy/.venv 2>/dev/null >/dev/null && echo \"  -> EXISTS \\(this is the real one\\)\")",
+      "Read(//Users/justanother/Documents/CODE/AI-Engineer-Roadmap/**)",
+      "Bash(git check-ignore *)",
+      "Read(//Library/Frameworks/Python.framework/Versions/3.13/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/bin/**)",
+      "Read(//Library/Frameworks/Python.framework/Versions/**)"
+    ]
+  }
+}
